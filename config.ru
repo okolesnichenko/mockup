@@ -1,0 +1,3 @@
+require './endpoints'
+
+run Endpoints

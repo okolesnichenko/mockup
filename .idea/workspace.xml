@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cde662e-28d5-4287-abdd-b6fb8572e563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/endpoints.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mockup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mockup.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/generator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/endpoints.rb" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VHhPdUi2zXA2IlGKBn6525CoYb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +32,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="start sinatra" type="RubyRunConfigurationType" factoryName="Ruby">
@@ -73,6 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1576915904988</updated>
       <workItem from="1576915907609" duration="3244000" />
+      <workItem from="1577081512521" duration="17545000" />
+      <workItem from="1577171950263" duration="9741000" />
     </task>
     <servers />
   </component>
@@ -80,28 +88,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576917688263">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="1611" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577081533195">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1576917688263" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1576955183763">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="1611" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577081533195" />
+    <state x="406" y="441" width="374" height="345" key="FileChooserDialogImpl" timestamp="1577171851760">
+      <screen x="0" y="312" width="1366" height="768" />
+    </state>
+    <state x="406" y="441" width="374" height="345" key="FileChooserDialogImpl/1366.0.1920.1080/0.312.1366.768@0.312.1366.768" timestamp="1577171851760" />
+    <state x="1936" y="181" width="424" height="484" key="FileChooserDialogImpl/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577081531264" />
+    <state width="1874" height="257" key="GridCell.Tab.0.bottom" timestamp="1577173051562">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1576955183763" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1576955183762">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1874" height="257" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577173051562" />
+    <state width="1874" height="257" key="GridCell.Tab.0.center" timestamp="1577173051561">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1576955183762" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1576955183753">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1874" height="257" key="GridCell.Tab.0.center/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577173051561" />
+    <state width="1874" height="257" key="GridCell.Tab.0.left" timestamp="1577173051561">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1576955183753" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1576955183763">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1874" height="257" key="GridCell.Tab.0.left/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577173051560" />
+    <state width="1874" height="257" key="GridCell.Tab.0.right" timestamp="1577173051561">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1576955183763" />
+    <state width="1874" height="257" key="GridCell.Tab.0.right/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577173051561" />
+    <state x="1815" y="155" key="SettingsEditor" timestamp="1577081543743">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1815" y="155" key="SettingsEditor/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577081543743" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mockup@start_sinatra.rcov" NAME="start sinatra Coverage Results" MODIFIED="1576917682921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="mockup" />
+    <SUITE FILE_PATH="coverage/mockup@start_sinatra.rcov" NAME="start sinatra Coverage Results" MODIFIED="1577173041675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="mockup" />
   </component>
 </project>
