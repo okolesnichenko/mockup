@@ -3,7 +3,7 @@
 Добавление мока:
 
 ```json
-GET /endpoints
+POST /endpoints
 {
   "method":"POST", 
   "path":"books", 
