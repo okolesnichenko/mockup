@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cde662e-28d5-4287-abdd-b6fb8572e563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mockup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mockup.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/endpoints.rb" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository.rb" beforeDir="false" afterPath="$PROJECT_DIR$/repository.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +75,24 @@
       <updated>1576915904988</updated>
       <workItem from="1576915907609" duration="3244000" />
       <workItem from="1577081512521" duration="17545000" />
-      <workItem from="1577171950263" duration="9741000" />
+      <workItem from="1577171950263" duration="15837000" />
     </task>
+    <task id="LOCAL-00001" summary="mockup v1">
+      <created>1577191307003</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577191307003</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mockup v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="mockup v1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1611" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577081533195">
@@ -93,6 +100,10 @@
     </state>
     <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1576917688263" />
     <state x="1611" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577081533195" />
+    <state x="1891" y="115" width="860" height="810" key="CommitChangelistDialog2" timestamp="1577191306875">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1891" y="115" width="860" height="810" key="CommitChangelistDialog2/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577191306875" />
     <state x="406" y="441" width="374" height="345" key="FileChooserDialogImpl" timestamp="1577171851760">
       <screen x="0" y="312" width="1366" height="768" />
     </state>
@@ -122,6 +133,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1815" y="155" key="SettingsEditor/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577081543743" />
+    <state x="1921" y="256" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577191308429">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1921" y="256" width="800" height="528" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1577191308429" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mockup@start_sinatra.rcov" NAME="start sinatra Coverage Results" MODIFIED="1577173041675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="mockup" />
