@@ -1,12 +1,13 @@
 # mockup
 
 Добавление мока:
-GET /endpoints
+
 ```json
+GET /endpoints
 {
-"method":"POST", 
-"path":"books", 
-"status":200, 
-"payload":{
-}
+  "method":"POST", 
+  "path":"books", 
+  "status":200, 
+  "payload":{
+  }
 }
