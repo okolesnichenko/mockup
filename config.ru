@@ -1,3 +1,3 @@
-require './endpoints'
+require './app/endpoints'
 
 run Endpoints

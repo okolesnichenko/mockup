@@ -6,7 +6,7 @@ class Repository
   def get
     keys = @redis.keys('*')
     if keys.empty?
-      raise Sinatra::NotFound
+      return [].to_json
     end
     response_array = @redis.mget(keys)
     JSON.parse response_array.to_json
@@ -30,7 +30,6 @@ class Repository
   end
 
   def check(path, method)
-
     unless @redis.keys("*").include? path
       raise Sinatra::NotFound
     end
