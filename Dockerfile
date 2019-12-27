@@ -14,5 +14,5 @@ ADD Gemfile.lock /mockup/Gemfile.lock
 COPY . /mockup
 
 EXPOSE 9292
-RUN bundle update
-CMD bundle install
+RUN bundle install
+CMD ["bundle", "exec", "rackup", "--host", "0.0.0.0", "-p", "9292"]

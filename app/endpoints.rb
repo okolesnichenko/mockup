@@ -18,6 +18,9 @@ class Endpoints < Sinatra::Base
   repository = Repository.new(redis)
 
   # Endpoints methods
+  get '/about' do
+    "Mockup service for liga/"
+  end
 
   get "/endpoints" do
     repository.get
