@@ -17,6 +17,8 @@ class Endpoints < Sinatra::Base
   redis = Redis.new(host: ENV['REDIS_HOST'], port: ENV['REDIS_PORT'])
   repository = Repository.new(redis)
 
+  # Endpoints methods
+
   get "/endpoints" do
     repository.get
   end
@@ -28,6 +30,16 @@ class Endpoints < Sinatra::Base
   delete "/endpoints/:path" do |path|
     repository.delete(path)
   end
+
+  get "/timeout/:timeout" do
+    count = params[:timeout].to_i
+    count.times do
+      sleep 1
+    end
+    {'message': "Processed #{count} items."}.to_json
+  end
+
+  # Methods for entities request
 
   get "/:path" do |path|
     repository.check(path, request.request_method.downcase)
