@@ -1,5 +1,10 @@
 # mockup
+Docker:
 
+```
+docker build -t mockup .
+docker run -p 9292:9292 mockup bundle exec rackup
+```
 Добавление мока:
 
 ```json
@@ -11,3 +16,4 @@ POST /endpoints
   "payload":{
   }
 }
+```
